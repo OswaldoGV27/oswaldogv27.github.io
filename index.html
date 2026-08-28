@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oswaldo Gil Valentín | Perfil Personal & Criptografía</title>
+  
+  <!-- Bootstrap 5 CSS & Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="inicio">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#inicio">
+        <i class="bi bi-shield-lock me-1"></i> Oswaldo GV
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-2 align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pasatiempos">Pasatiempos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#criptografia">Criptografía</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+
+        <button
+          id="themeToggle"
+          class="btn btn-sm btn-outline-secondary theme-toggle ms-lg-2"
+          type="button"
+          aria-label="Cambiar a modo oscuro"
+          aria-pressed="false"
+          title="Cambiar tema"
+        >
+          <i class="bi bi-moon-stars-fill theme-icon"></i>
+          <span class="theme-label d-none d-sm-inline">Oscuro</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sobre Mí -->
+  <section id="sobre-mi" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-4 text-center">
+          <!-- foto de perfil -->
+          <img src="assets/images/perfil.jpg" 
+               alt="Oswaldo Gil Valentín" 
+               class="rounded-circle profile-img mb-3">
+          <h2 class="h4 fw-bold mb-1">Oswaldo Gil Valentín</h2>
+          <p class="text-muted small">Estudiante de Ing. en Sistemas Computacionales | ESCOM IPN</p>
+          
+          <!-- Botones Descargar CV y Llave Pública -->
+          <div class="d-flex flex-column gap-2 mt-4 px-3">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1vddXPQnYAU33kyi6nrsMVDAn-MP4SqMd"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
+              class="btn btn-primary d-flex align-items-center justify-content-center gap-2"
+            >
+              <i class="bi bi-file-earmark-pdf"></i> Descargar CV
+            </a>
+
+            <a
+              href="https://drive.google.com/drive/folders/1FyG8vc0Z-YL7aRHFf441rLWZlUvD_nxa?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline-secondary d-flex align-items-center justify-content-center gap-2"
+            >
+              <i class="bi bi-key"></i> Descargar Llave Pública
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <span class="badge bg-primary-subtle text-primary mb-2 px-3 py-2 rounded-pill">Práctica 0 · Criptografía</span>
+          <h1 class="display-6 fw-bold mb-3">Ingeniería, Desarrollo & Seguridad Digital</h1>
+          <p class="lead text-muted">
+            Estudiante entusiasta por la ingeniería de software, arquitectura de sistemas y seguridad informática. Enfocado en construir soluciones tecnológicas eficientes, estructuradas y seguras.
+          </p>
+          <p class="text-muted">
+            Actualmente curso la carrera de Ingeniería en Sistemas Computacionales en la Escuela Superior de Cómputo (ESCOM) del IPN. Cuento con experiencia en desarrollo web full stack, desarrollo móvil con Kotlin/Jetpack Compose, bases de datos y administración de entornos de red.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formación Académica -->
+  <section id="formacion" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Formación Académica</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="timeline mt-4">
+            
+            <!-- ESCOM IPN -->
+            <div class="timeline-item">
+              <span class="badge bg-primary mb-1">2022 – En Curso</span>
+              <h4 class="h5 fw-bold mb-1">Ingeniería en Sistemas Computacionales</h4>
+              <h5 class="h6 text-muted mb-2">Escuela Superior de Cómputo (ESCOM) – IPN</h5>
+              <p class="text-secondary small">
+                Formación en estructuras de datos, desarrollo full-stack, redes de datos, criptografía y análisis de algoritmos y ensamblado de circuitos electrónicos.
+              </p>
+            </div>
+
+            <!-- Centro de Estudios Cientificos y Tecnologicos No. 3-->
+            <div class="timeline-item">
+              <span class="badge bg-secondary mb-1">2019 – 2022</span>
+              <h4 class="h5 fw-bold mb-1">Técnico en Manufactura Asistida por Computadora</h4>
+              <h5 class="h6 text-muted mb-2">CECyT No. 3 "Estanislao Ramírez Ruiz" – IPN</h5>
+              <p class="text-secondary small">
+                Bases de lógica computacional, modelado y diseño asistido por computadora (CAD/CAM), control numérico, armado de circuitos electrónicos y programación de maquinas tipo CNC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Pasatiempos Favoritos -->
+  <section id="pasatiempos" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Pasatiempos Favoritos</h2>
+      <div class="row g-4 mt-2">
+        
+        <!-- Pasatiempo 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <img src="assets/images/videojuegos.jpg" class="card-img-top rounded-2 mb-3" alt="Videojuegos" style="height: 160px; object-fit: cover;">
+            <div class="card-body p-0">
+              <h3 class="h5 fw-bold mb-2">Videojuegos & Modding</h3>
+              <p class="card-text text-muted small">
+                Exploración de mecánicas de juegos de rol y estrategia, así como el desarrollo de modificaciones personalizadas para Minecraft Java, ya que es un juego bastante sencillo de modificar y divertido de manipular, además de muchos otros videojuegos que me gustan.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasatiempo 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <img src="assets/images/dibujo.jpg" class="card-img-top rounded-2 mb-3" alt="Hardware de PC" style="height: 160px; object-fit: cover;">
+            <div class="card-body p-0">
+              <h3 class="h5 fw-bold mb-2">Dibujo & Arte</h3>
+              <p class="card-text text-muted small">
+                Tambien tengo como pasatiempo el dibujo y el arte, lo que me permite expresar mi creatividad y mejorar mis habilidades de diseño. Aprendi a dibujar observando el mundo mediante formas geometricas y lineas unicas para cada detalle, ademas de observar el comportamiento de las sombras y la luz para dar profundidad a mis dibujos, lo que me ha ayudado a disfrutar del proceso creativo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasatiempo 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 p-3">
+            <img src="assets/images/cine.jpg" class="card-img-top rounded-2 mb-3" alt="Cine" style="height: 160px; object-fit: cover;">
+            <div class="card-body p-0">
+              <h3 class="h5 fw-bold mb-2">Cine & Narrativa Visual</h3>
+              <p class="card-text text-muted small">
+                Apreciación cinematográfica orientada a la ciencia ficción, animación japonesa y formatos inmersivos, analizando estructuras de guión, ademas de apreciar las multiples historias tan interesantes que hay por conocer, entre las franquicias que más me gustan son Star Wars, Marvel, Dragon Ball y muchas otras.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Hechos Curiosos de Criptografía -->
+  <section id="criptografia" class="py-5 bg-light">
+    <div class="container">
+      <div class="mb-4">
+        <h2 class="section-title">Hechos Curiosos de Criptografía</h2>
+        <p class="text-muted">Conceptos y sucesos históricos fascinantes sobre la ciencia del cifrado de la información.</p>
+      </div>
+
+      <div class="row g-4">
+        
+        <!-- Curiosidad 1: Máquina Enigma -->
+        <div class="col-lg-4">
+          <div class="card h-100">
+            <img src="assets/images/enigma.jpg" class="crypto-media" alt="Criptografía clásica y Enigma">
+            <div class="card-body">
+              <span class="badge bg-danger-subtle text-danger mb-2">Historia Bélica</span>
+              <h3 class="h5 fw-bold">1. La debilidad fatal de la Máquina Enigma</h3>
+              <p class="card-text text-muted small">
+                La célebre máquina electro-mecánica nazi poseía más de 150 trillones de combinaciones, pero tenía un fallo de diseño lógico fundamental: <strong>ninguna letra podía cifrarse jamás como sí misma</strong>. Esta regla redujo masivamente el espacio de búsqueda que Alan Turing y su equipo en Bletchley Park explotaron con la máquina <em>Bombe</em> para descifrar los mensajes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curiosidad 2: Escultura Kryptos -->
+        <div class="col-lg-4">
+          <div class="card h-100">
+            <img src="assets/images/kryptos.jpg" class="crypto-media" alt="Escultura Kryptos">
+            <div class="card-body">
+              <span class="badge bg-warning-subtle text-warning-emphasis mb-2">Misterio Moderno</span>
+              <h3 class="h5 fw-bold">2. Kryptos: El enigma sin resolver de la CIA</h3>
+              <p class="card-text text-muted small">
+                Ubicada en el cuartel general de la CIA en Langley, esta escultura de cobre creada por Jim Sanborn en 1990 contiene 865 caracteres cifrados divididos en cuatro secciones (K1 a K4). Tras más de 30 años de análisis por expertos y agencias de inteligencia, <strong>el pasaje K4 continúa siendo indescifrable</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Curiosidad 3: Video Diffie-Hellman -->
+        <div class="col-lg-4">
+          <div class="card h-100">
+            <div class="ratio ratio-16x9 ratio-video">
+              <!-- Video de Youtube -->
+              <iframe src="https://www.youtube-nocookie.com/embed/vZToAM4kwjM" title="Public Key Cryptography Explained" allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-success mb-2">Fundamentos de Internet</span>
+              <h3 class="h5 fw-bold">3. La analogía de las pinturas de Diffie-Hellman</h3>
+              <p class="card-text text-muted small">
+                El intercambio de claves Diffie-Hellman permitió que dos personas compartan un secreto en un canal público sin enviar la clave en sí. Matemáticamente se basa en el problema del logaritmo discreto, pero conceptualmente funciona mezclando colores de pintura comunes y privados imposibles de separar una vez combinados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto & Redes -->
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-title d-inline-block">Contacto</h2>
+          <p class="text-muted mt-3 mb-4">
+            ¿Tienes alguna duda o te gustaría colaborar en algún proyecto? Puedes escribirme o consultar mis repositorios.
+          </p>
+          
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="mailto:oswaldogil2im10@gmail.com" class="btn btn-outline-primary d-flex align-items-center gap-2 px-4 py-2">
+              <i class="bi bi-envelope-fill"></i> Correo Electrónico
+            </a>
+            <a href="https://www.linkedin.com/in/oswaldogilvalentin" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark d-flex align-items-center gap-2 px-4 py-2">
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/OswaldoGV27" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark d-flex align-items-center gap-2 px-4 py-2">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+            <a href="https://www.instagram.com/hidekl_gm/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-danger d-flex align-items-center gap-2 px-4 py-2">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center text-muted small">
+    <div class="container">
+      <p class="mb-1">© 2026 Oswaldo Gil Valentín · Temas selectos de Criptografía</p>
+      <p class="mb-0">Escuela Superior de Cómputo — Instituto Politécnico Nacional</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
