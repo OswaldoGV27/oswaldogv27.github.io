@@ -328,6 +328,19 @@ body[data-theme="dark"] .badge.bg-primary-subtle {
   color: #dfeafe !important;
 }
 
+/* Navbar Toggler en modo oscuro */
+body[data-theme="dark"] .navbar-toggler {
+  border-color: rgba(122, 169, 255, 0.3);
+}
+
+body[data-theme="dark"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23e5edf9' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+body[data-theme="dark"] .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%237aa9ff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 .display-6 {
   letter-spacing: -0.065em;
   line-height: 1.08;
